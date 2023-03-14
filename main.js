@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) =>{
 function confirmador(valorA,valorB){
     if(valorA < valorB){
         alert("Valor A=", + valorA, " é menor que valor B= ", + valorB)
-    }else if(valorA == valorB){
+    }else if(valorA = valorB){
         alert("Valor A=", + valorA, " é igual que valor B= ", + valorB)
     }else if(valorA > valorB){
         alert("Valor A=", + valorA, " é maior que valor B= ", + valorB)

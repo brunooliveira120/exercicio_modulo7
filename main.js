@@ -5,7 +5,7 @@ const valorB = document.getElementById('valorB');
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    if (valorA > valorB){
+    if (valorA.value > valorB.value){
         alert("Invalido! Valor A maior que VALOR B.")
     }
     else if(valorA.value < valorB.value){

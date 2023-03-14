@@ -1,7 +1,7 @@
 const form = document.getElementById('form-numero');
 
 function confirmador(valorA,valorB){
-    if(valorA < valorB){
+    if(valorA <= valorB){
         return true
     }else{
         return false

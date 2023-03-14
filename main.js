@@ -14,6 +14,7 @@ function confirmador(valorA,valorB){
     }else if(valorA > valorB){
         alert("Valor A= ", + valorA, " é maior que valor B= ", + valorB)
     }
+    return confirmador
 }
 
 console.log(confirmador);

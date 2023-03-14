@@ -8,10 +8,10 @@ form.addEventListener('submit', function(e) {
     if (valorA > valorB){
         alert("Invalido! Valor A maior que VALOR B.")
     }
-    else if(numeroA.value < numeroB.value){
+    else if(valorA.value < valorB.value){
         alert("Tudo ok! O número B é maior do que o número A")
     }
-    else if(numeroA.value == numeroB.value){
+    else if(valorA.value == valorB.value){
         alert("Número B igual a número A!")
 
         valorA.value = ''

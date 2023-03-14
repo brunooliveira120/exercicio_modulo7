@@ -2,9 +2,9 @@ const form = document.getElementById('form-numero');
 
 function confirmador(valorA,valorB){
     if(valorA <= valorB){
-        return true
+        alert("Valor A= " + valorA, " é menor que valor B= " + valorB)
     }else{
-        return false
+        alert("Valor A= " + valorA, " é maior que valor B= " + valorB)
     }
 }
 

@@ -4,17 +4,17 @@ const valorB = document.getElementById('valorB');
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
-})
 
-function confirmador(valorA,valorB){
-    if(valorA < valorB){
-        alert("Valor A= " + valorA + " é menor que valor B= " + valorB)
-    }else if(valorA == valorB){
-        alert("Valor A= " + valorA + " é igual que valor B= " + valorB)
-    }else if(valorA > valorB){
-        alert("Valor A= "+ valorA + " é maior que valor B= " + valorB)
+    if (valorA > valorB){
+        alert("Invalido! Valor A maior que VALOR B.")
     }
-    return confirmador
-}
+    else if(numeroA.value < numeroB.value){
+        alert("Tudo ok! O número B é maior do que o número A")
+    }
+    else if(numeroA.value == numeroB.value){
+        alert("Número B igual a número A!")
 
-console.log(confirmador);
+        valorA.value = ''
+        valorB.value = ''
+    }
+})

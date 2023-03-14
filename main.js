@@ -1,4 +1,10 @@
 const form = document.getElementById('form-numero');
+const valorA = document.getElementById('valorA');
+const valorB = document.getElementById('valorB');
+
+form.addEventListener('submit', (e) =>{
+    e.preventDefault();
+})
 
 function confirmador(valorA,valorB){
     if(valorA <= valorB){
@@ -6,22 +12,7 @@ function confirmador(valorA,valorB){
     }else{
         alert("Valor A=" + valorA, " é maior que valor B= " + valorB)
     }
+    return confirmador
 }
-
-form.addEventListener('submit', (e) =>{
-    e.preventDefault();
-
-
-    const valorA = document.getElementById('valorA');
-    const valorB = document.getElementById('valorB');
-
-        if(confirmador){
-            alert(messagem)
-        }else{
-            alert("valor invalido")
-        }
-    
-        return numerovalido;
-    })
 
 console.log(form);

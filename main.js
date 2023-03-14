@@ -17,4 +17,4 @@ function confirmador(valorA,valorB){
     return confirmador
 }
 
-console.log(confirmador(10,20));
+console.log(confirmador);

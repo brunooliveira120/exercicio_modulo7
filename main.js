@@ -16,4 +16,4 @@ function confirmador(valorA,valorB){
     }
 }
 
-console.log(confirmador(10, 20));
+console.log(form);

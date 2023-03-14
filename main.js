@@ -19,9 +19,9 @@ form.addEventListener('submit', (e) =>{
 
     formEvalido = confirmador
         if(confirmador){
-            alerta(messagem)
+            alert(messagem)
         }else{
-            alerta("valor invalido")
+            alert("valor invalido")
         }
     
         return numerovalido;

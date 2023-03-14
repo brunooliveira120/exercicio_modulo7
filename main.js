@@ -9,15 +9,12 @@ function confirmador(valorA,valorB){
 }
 
 form.addEventListener('submit', (e) =>{
-    let formEvalido = false;
     e.preventDefault();
 
 
     const valorA = document.getElementById('valorA');
     const valorB = document.getElementById('valorB');
-    const messagem = `Valor A=${valorA} é menor que o valor B=${valorB}`
 
-    formEvalido = confirmador
         if(confirmador){
             alert(messagem)
         }else{

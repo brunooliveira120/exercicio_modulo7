@@ -15,16 +15,6 @@ form.addEventListener('submit', (e) =>{
 
     const valorA = document.getElementById('valorA');
     const valorB = document.getElementById('valorB');
-    const messagem = `Valor A=${valorA} é menor que o valor B=${valorB}`
-
-    formEvalido = confirmador
-        if(confirmador){
-            alert(messagem)
-        }else{
-            alert("valor invalido")
-        }
-    
-        return numerovalido;
     })
 
 console.log(form);

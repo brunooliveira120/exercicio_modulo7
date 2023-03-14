@@ -16,6 +16,5 @@ function confirmador(valorA,valorB){
     }
     return confirmador
 }
-const valores = confirmador(valorA, valorB);
 
 console.log(confirmador);
